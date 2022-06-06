@@ -5,12 +5,10 @@ const taskList = document.getElementById('tasks');
 form.onsubmit = function (e) {
 	e.preventDefault();
     if(document.getElementById('task-input').value !== ''){
-        console.log(e);
         const inputField = document.getElementById('task-input');
         addTask(inputField.value);
         form.reset();
     } else {
-        console.log('valor vazio')
         alert('Tarefa vazia, por favor, digite novamente');
         
     }
