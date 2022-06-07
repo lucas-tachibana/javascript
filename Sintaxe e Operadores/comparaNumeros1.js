@@ -1,4 +1,4 @@
-var n1 = 12;
+var n1 = console;
 var n2 = 12;
 const maior10 = 10;
 const maior20 = 20;
